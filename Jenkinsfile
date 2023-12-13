@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Checkout code from the Develop branch
-                    checkout([$class: 'GitSCM', branches: [[name: '*/develop']], userRemoteConfigs: [[url: 'Your_Git_Repository_URL']]])
+                    checkout([$class: 'GitSCM', branches: [[name: '*/develop']], userRemoteConfigs: [[url: 'https://github.com/tanmay16111999/Repo']]])
                 }
             }
         }
